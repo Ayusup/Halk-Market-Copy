@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/add.xml" value="0.142" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/add_to_cart.xml" value="0.141" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/add_to_cart_bg.xml" value="0.141" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/categories_cardview_bg.xml" value="0.104" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/categories_model_bg.xml" value="0.1015" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/favourite_btn.xml" value="0.1465" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/ic_cart.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/ic_categories.xml" value="0.141" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/ic_categories_selected.xml" value="0.141" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/ic_main.xml" value="0.135" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/ic_planned.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/ic_wishlist.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable-v24/profile_info_underline.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable/add_plannedlist_round_bg.xml" value="0.12" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable/categories_at_top_element_bg.xml" value="0.1035" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable/fragments_bg.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable/gray_drop_shadow.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable/high_importance_planned_list_layout.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/drawable/suggestion_model_bg.xml" value="0.1645" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/active_sub_categories_model.xml" value="0.75" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/activity_display_language.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/activity_login.xml" value="0.165" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/activity_product.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/activity_products_in_planned_list.xml" value="0.13852073535699017" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/activity_sign_up.xml" value="0.375" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/ads_pager_content.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/brand_view_model.xml" value="0.18" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/brands_fragment_recyclerview.xml" value="0.12692656391659113" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/cardview_layout.xml" value="0.375" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/cart_tab_item_icon.xml" value="0.13894826849080805" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/categories.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/categories_at_top_model.xml" value="0.21842496285289748" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/categories_at_top_recyclerview.xml" value="0.6770833333333334" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/categories_content.xml" value="0.13894826849080805" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/categories_layout.xml" value="0.13894826849080805" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/categories_model.xml" value="0.34080717488789236" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/categories_recyclerview.xml" value="0.13894826849080805" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/categories_views_recyclerview.xml" value="0.13809320222317228" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/category_suggestion_model.xml" value="0.13894826849080805" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/catigories_at_the_top_recyclerview.xml" value="0.22" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/catigories_in_top_recyclerview.xml" value="0.13894826849080805" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/content_product.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/create_planned_list_layout.xml" value="0.125" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/dialog_add_to_planned.xml" value="0.25" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_brands.xml" value="0.13894826849080805" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_cart.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_categories_at_top.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_categories_in_top.xml" value="0.125" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_categroies.xml" value="0.13894826849080805" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_display_language.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_main.xml" value="0.25" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_planned_lists.xml" value="0.11" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_product.xml" value="0.22026431718061673" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_product_in_categories.xml" value="0.125" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_products_in_brand.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_products_in_planned_list.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_search.xml" value="0.10063463281958296" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_second.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_see_all.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/fragment_wishlist.xml" value="0.13894826849080805" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/item_in_cart_cardview.xml" value="0.13894826849080805" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/item_in_planned_list_cardview.xml" value="0.25" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/item_in_wishlist_cardview.xml" value="0.335" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/item_loading_dialog.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/items_in_planned_list_content.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/loading_progress_bar.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/navigation_bar.xml" value="0.33" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/new_products_content.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/planned_list_in_dialogview_content.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/planned_list_layout_content.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/planned_list_model.xml" value="0.335" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/planned_list_model_dialogview.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/planned_lists_layout.xml" value="0.125" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/popular_products_content.xml" value="0.13552800342026508" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/product_layout.xml" value="0.11" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/product_model_layout.xml" value="0.375" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/profile_layout.xml" value="0.13894826849080805" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/search_layout.xml" value="0.10063463281958296" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/search_layout_content.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/see_all.xml" value="0.25" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/see_all_layout_content.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/sub_categories_at_top_model.xml" value="0.33" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/subcategories_at_the_top_recyclerview.xml" value="0.13552800342026508" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/suggestion_view_model.xml" value="1.0" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/suggestions_recyclerview.xml" value="0.13809320222317228" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/tab_item_cart.xml" value="0.10657933908901458" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/tab_item_categories.xml" value="0.625" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/tab_item_main.xml" value="0.45" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/tab_item_planned.xml" value="0.625" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/tab_item_wishlist.xml" value="0.625" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/top_bar_layout.xml" value="0.1393758016246259" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/wishlist_layout.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder (2)/New folder/Walmart/app/src/main/res/layout/wishlist_layout_content.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/drawable/animated_check_green.xml" value="0.1735" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/drawable/check.xml" value="0.116" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/drawable/ic_green_check.xml" value="0.116" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/drawable/main_layout_host_bg.xml" value="0.1" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/drawable/registration_edit_text_bg_gray.xml" value="0.1185" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/drawable/registration_edit_text_bg_green.xml" value="0.1185" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/drawable/registration_edit_text_bg_red.xml" value="0.1185" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/a.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/aa.xml" value="0.15220179563916203" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/aaa.xml" value="0.15220179563916203" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/activity_main.xml" value="0.8467741935483871" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/brand_view_model.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/cardview_layout.xml" value="0.45" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/carousel_motion_layout.xml" value="0.1" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/cart_layout.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/dialog_add_to_planned.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/fragment_brands.xml" value="0.10474561778537837" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/fragment_cart.xml" value="0.1" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/fragment_main.xml" value="0.1" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/fragment_planned_lists.xml" value="0.1" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/fragment_product_in_categories.xml" value="0.25" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/fragment_search.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/fragment_see_all.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/fragment_wishlist.xml" value="0.1" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/item_in_planned_list_cardview.xml" value="0.5" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/new_products_content.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/planned_list_model.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/planned_list_model_dialogview.xml" value="0.1" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/popular_products_content.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/products_in_deals_recyclerview.xml" value="0.15220179563916203" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/search_layout_content.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/layout/wishlist_layout_content.xml" value="0.1" />
+        <entry key="..\:/New folder/MVVM changes/Walmart/app/src/main/res/xml/carousel_slider_scene.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/drawable/layout_bg_while_transition.xml" value="0.1745" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/drawable/refresh_button_bg.xml" value="0.16" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/activity_splash.xml" value="0.16" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/cart_layout.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/cart_layout_content.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/categories.xml" value="0.1" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/categories_content.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/categories_layout.xml" value="0.1" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/fragment_cart.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/fragment_categroies.xml" value="0.1" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/fragment_main.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/fragment_planned_lists.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/fragment_product_in_categories.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/fragment_wishlist.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/item_in_planned_list_cardview.xml" value="0.10108794197642793" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/planned_lists_layout.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/popular_products_content.xml" value="0.14460562103354488" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/promotions_and_sales_content.xml" value="0.14460562103354488" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/sales_content.xml" value="0.14460562103354488" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/search_layout.xml" value="0.14578879863189398" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/search_layout_content.xml" value="0.14578879863189398" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/see_all.xml" value="0.1" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/see_all_layout_content.xml" value="0.14493373236425822" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/top_bar_layout.xml" value="0.15305686190679776" />
+        <entry key="..\:/New folder/Walmart/app/src/main/res/layout/wishlist_layout.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/add.xml" value="0.1055" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/add_to_cart.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/add_to_cart_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/bottom_bar_item_selected.xml" value="0.2115" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/cardview_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/categories_cardview_bg.xml" value="0.2115" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/categories_model_bg.xml" value="0.2115" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/favourite_btn.xml" value="0.1675" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/favourite_btn_selected.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/favourite_btn_unselected.xml" value="0.1675" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_add.xml" value="0.1055" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_add_to_cart.xml" value="0.198" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_calendar.xml" value="0.186" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_call.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_cart.xml" value="0.143" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_cart_unselected.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_categories.xml" value="0.2115" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_categories_selected.xml" value="0.2115" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_categories_unselected.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_categories_white.xml" value="0.2115" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_main.xml" value="0.2115" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_main_selected.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_main_unselected.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_planned.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_profile.xml" value="0.198" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_take.xml" value="0.1335" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_wishlist.xml" value="0.1385" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/ic_wishlist_selected.xml" value="0.1385" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/minus_item_add_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/plus_item_add_bg.xml" value="0.1055" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/profile_info_underline.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable-v24/take.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/aaaaaaaa.xml" value="0.2105" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/add_in_cart_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/add_item_green_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/add_take_bg.xml" value="0.1055" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/add_to_cart_btn_wishlist_layout.xml" value="0.163" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/animated_check.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/animated_check_green.xml" value="0.177" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/animated_check_red.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/check.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/check_animation.xml" value="0.177" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/check_mark.xml" value="0.177" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/check_mark_green.xml" value="0.177" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/check_mark_red.xml" value="0.1335" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/create_list_btn_planned_layout.xml" value="0.1245" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/create_planned_list_btn_planned_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/dialog_view_add_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/edit_text_underline_activated_create_planned_lists.xml" value="0.1245" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/edit_text_underline_create_planned_lists.xml" value="0.1245" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/edit_text_underline_selector_create_planned_lists.xml" value="0.1245" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/high_importance_bg_glow.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/high_importance_btn_round_and_glow.xml" value="0.1275" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/high_importance_planned_list_layout.xml" value="0.2115" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/high_importance_planned_list_layout_bg.xml" value="0.1135" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/high_importance_round.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/high_importance_round_and_glow.xml" value="0.1275" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/ic_clear.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/ic_round_add_24.xml" value="0.1225" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/item_in_planned_list.xml" value="0.177" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/item_in_planned_list_cardview_delete_ic.xml" value="0.177" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/item_in_planned_list_cardview_delete_ic_bg.xml" value="0.177" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/item_in_planned_list_tick_bg.xml" value="0.177" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/item_in_planned_list_tick_selector.xml" value="0.177" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/low_importance_bg_glow.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/low_importance_planned_list_layout.xml" value="0.166" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/low_importance_pllanned_list_layout_bg.xml" value="0.166" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/low_importance_round.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/main_layout_host_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/normal_importance_bg_glow.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/normal_importance_planned_list_bg.xml" value="0.1135" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/normal_importance_round.xml" value="0.112" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/planned_list_edittext_ic_calendar.xml" value="0.1795" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/planned_list_edittext_ic_calendar_selected.xml" value="0.186" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/planned_list_edittext_ic_calendar_selector.xml" value="0.186" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/planned_list_in_dialogview_scuare.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/products_by_deals_bg.xml" value="0.2105" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/products_by_deals_bg_horizontal.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/products_by_deals_bg_vertical.xml" value="0.198" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/search_layout_background.xml" value="0.1795" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/take_in_cart_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/take_item_blue_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/take_item_in_cart_blue_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/tick_for_planned_list_in_dialogview.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/drawable/tick_for_planned_lists_in_dialogview.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/activity_main.xml" value="0.7625" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/activity_products_in_planned_list.xml" value="0.6642441860465116" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/cardview_layout.xml" value="0.9" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/cart_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/cart_layout_content.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/categories.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/categories_content.xml" value="0.18115942028985507" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/categories_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/create_planned_list_layout.xml" value="0.3439024390243902" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/dialog_add_to_planned.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/display_language_layout.xml" value="1.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/individual_planned_list_content.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/item_in_cart_cardview.xml" value="0.33" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/item_in_planned_list_cardview.xml" value="0.75" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/item_in_wishlist_cardview.xml" value="0.5" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/items_in_planned_list_content.xml" value="0.7412790697674418" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/main_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/navigation_bar.xml" value="0.25" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/new_products_content.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/planned_list_in_dialogview_content.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/planned_list_layout_content.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/planned_list_model.xml" value="0.22" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/planned_list_model_dialogview.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/planned_lists_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/popular_products_content.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/products_in_planned_list.xml" value="0.75" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/products_in_planned_list_layout.xml" value="0.4694767441860465" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/profile_layout.xml" value="0.67" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/sales_content.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/search_layout.xml" value="0.9" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/search_layout_content.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/see_all.xml" value="0.75" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/slider_items.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/som_layout_content.xml" value="0.1" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/top_bar_layout.xml" value="0.75" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/wishlist_content.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yusup/AndroidStudioProjects/Walmart/app/src/main/res/layout/wishlist_layout.xml" value="0.1" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/drawable-v24/cardview_bg.xml" value="0.25" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/drawable/animated_check_green.xml" value="0.1" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/drawable/animated_check_red.xml" value="0.1" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/drawable/check.xml" value="0.1" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/drawable/check_mark_green.xml" value="0.1" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/drawable/ic_check_display_language_layout.xml" value="0.1" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/drawable/register_lay_first_name_ic.xml" value="0.1445" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/drawable/registration_edit_text_bg.xml" value="0.18" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/drawable/registration_edit_text_bg_blue.xml" value="0.1445" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/drawable/registration_edit_text_bg_green.xml" value="0.1445" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/activity_display_language.xml" value="0.375" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/activity_splash.xml" value="0.165" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/cardview_layout.xml" value="0.335" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/cart_layout.xml" value="0.55" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/cart_layout_content.xml" value="0.86875" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/categories.xml" value="0.15305686190679776" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/categories_content.xml" value="0.15305686190679776" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/categories_layout.xml" value="0.25" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/create_planned_list_layout.xml" value="0.25" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/dialog_progress.xml" value="0.375" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/item_loading_dialog.xml" value="0.11" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/planned_list_in_dialogview_content.xml" value="0.15305686190679776" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/planned_list_layout_content.xml" value="0.1" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/planned_list_model.xml" value="0.15305686190679776" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/planned_list_model_dialogview.xml" value="0.1414324569356301" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/planned_lists_layout.xml" value="0.15305686190679776" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/profile_layout.xml" value="0.165" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/search_layout.xml" value="0.16913946587537093" />
+        <entry key="..\:/Web scraping for Walmart/Walmart/app/src/main/res/layout/search_layout_content.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

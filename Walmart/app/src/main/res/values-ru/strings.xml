@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Walmart</string>
+    <string name="Categories_inside_scrollview">Категории</string>
+    <string name="Brands_inside_scrollview">Брэнды</string>
+
+    <!-- Profile layout -->
+    <string name="your_adress">Ваш адресс</string>
+    <string name="Personal_information">Личная информация</string>
+    <string name="My_adresses">Мои адреса</string>
+    <string name="Orders">Заказы</string>
+    <string name="Feedback">Обратная связь</string>
+    <string name="FAQ">FAQ</string>
+    <string name="Delivery_and_payment_terms">Условия доставки и оплаты</string>
+    <string name="display_language">Язык отображения</string>
+    <string name="About_us">О нас</string>
+    <string name="Registration">Регистрация</string>
+    <string name="login">Вход</string>
+    <string name="Logout">Выход</string>
+
+    <!-- Main layout -->
+    <string name="new_products">Новые продукты</string>
+    <string name="see_all">Посмотреть все</string>
+
+    <string name="promotions_and_sales">Акции и распродажи</string>
+
+    <string name="popular_products">Популярные продукты</string>
+
+    <string name="sales">Распродажи</string>
+
+    <string name="search">Поиск</string>
+    <string name="search_hint_text">Что бы вы хотели купить?</string>
+
+    <string name="price_for_piece">цена за шт</string>
+    <string name="pieces"> шт</string>
+
+    <string name="nav_bar_main_menu">Главная</string>
+    <string name="nav_bar_categories">Категории</string>
+    <string name="nav_bar_Cart">Корзина</string>
+    <string name="nav_bar_Wishlist">Избранные</string>
+    <string name="nav_bar_planned">Запланированные</string>
+
+
+    <!-- Empty Cart layout -->
+    <string name="Cart_is_empty">Ваша корзина сейчас пуста</string>
+    <string name="go_and_add_a_product_to_cart">К счастью вы можете перейти в магазин и добавить товар</string>
+
+    <!-- Empty Wishlist layout -->
+    <string name="Wishlist_is_empty">Ваш список избранного сейчас пуст</string>
+    <string name="go_and_add_a_product_to_wishlist">Но вы можете перейти в магазин и выбрать несколько вариантов</string>
+
+    <!-- Empty Planned list layout -->
+    <string name="Planned_list_is_empty">Ваш список пуст</string>
+    <string name="go_and_add_a_product_to_planned_list">Создайте список и добавьте их в свою тележку чтобы сделать покупки проще</string>
+
+
+    <!-- Categories layout -->
+    <string name="Confectionery">Кондитерские изделия</string>
+    <string name="Bread_and_pastries">Хлеб и выпечка</string>
+    <string name="Dairy_products">Молочные продукты, яйца</string>
+    <string name="Grocery">Овощи и фрукты</string>
+    <string name="Food_products">Продукты питания</string>
+    <string name="Meat_and_sausages">Мясные и колбасные изделя</string>
+    <string name="Soft_drinks">Напитки</string>
+    <string name="Tea_and_coffee">Чай и кофе</string>
+    <string name="For_diabetics">Для диябетиков</string>
+    <string name="Frozen_products">Замороженные изделя</string>
+    <string name="Fish_and_seafood">Рыбы и морепродукты</string>
+    <string name="Appliances">Бытовая техника</string>
+    <string name="Pan_asian_cuisine">Паназиатская кухня</string>
+    <string name="Household_products">Товары для дома</string>
+    <string name="Sweets_and_snacks">Сладости и снеки</string>
+    <string name="Kids_toys">Детские игрушки</string>
+    <string name="Baby_food">Детское питание</string>
+
+    <!-- Cart layout -->
+    <string name="in_stock_text">В наличии</string>
+    <string name="total_price_text">Всего</string>
+    <string name="delete_btn_text">Удалить</string>
+    <string name="clear_all_btn_text">Очистить</string>
+    <string name="number_of_products_in_cart_text">товара(ов)</string>
+    <string name="check_out_btn_text">Оформить</string>
+    <string name="checkout_price_text">Ваш заказ </string>
+
+    <!-- Wishlist layout -->
+    <string name="add_to_cart">В корзину</string>
+
+    <!-- Add to planned dialog layout -->
+    <string name="add_to_list">Добавить в список</string>
+    <string name="create_a_list">Создание списка</string>
+    <string name="Add">Добавить</string>
+    <string name="Cancel">Отмена</string>
+
+    <!-- Create planned layout -->
+    <string name="planned_lists">Запланированные задачи</string>
+    <string name="add_list_name">Добавьте название списка</string>
+    <string name="date">Дата</string>
+    <string name="choose_priority">Выберите приоритет</string>
+    <string name="high">Высокий</string>
+    <string name="medium">Средний</string>
+    <string name="low">Низкий</string>
+    <string name="btn_save_txt">Сохранить</string>
+
+
+</resources>

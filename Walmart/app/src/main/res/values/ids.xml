@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="llayout_add_to_cart" type="id"/>
+    <item name="llayout_add_take" type="id"/>
+    <item name="pieces" type="id"/>
+    <item name="pieces_price" type="id"/>
+</resources>

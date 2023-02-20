@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lighter_white_solid"
+    app:layoutDescription="@xml/activity_main_scene">
+
+    <include
+        layout="@layout/profile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/lever2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        android:visibility="visible"
+        android:elevation="10dp"/>
+
+    <RelativeLayout
+        android:id="@+id/main_layout_host"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintWidth_default="spread"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="86dp">
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/fragments_viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/tabLayout"
+            android:overScrollMode="always"
+            android:splitMotionEvents="true" />
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:elevation="10dp"
+            android:scrollbarTrackHorizontal="@null"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/color_Accent"
+            app:tabIndicatorFullWidth="false"
+            app:tabIndicatorGravity="bottom"
+            app:tabMaxWidth="0dp"
+            app:tabMinWidth="80dp"
+            app:tabMode="fixed"
+            app:tabRippleColor="@null"
+            app:tabUnboundedRipple="true">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+
+        <include
+            android:id="@+id/search_layout"
+            layout="@layout/search_layout"
+            android:visibility="gone" />
+
+
+        <!--        <include-->
+        <!--            android:id="@+id/see_all_layout"-->
+        <!--            layout="@layout/see_all"-->
+        <!--            android:visibility="gone" />-->
+
+        <include
+            android:id="@+id/categories_view"
+            layout="@layout/categories"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/products_in_planned_list_lay"
+            layout="@layout/activity_products_in_planned_list"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

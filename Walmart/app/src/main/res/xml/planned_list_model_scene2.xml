@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        android:id="@+id/motion"
+        motion:constraintSetEnd="@+id/planned_list_end_constraint"
+        motion:constraintSetStart="@id/planned_list_start_constraint"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+        <OnSwipe motion:springStiffness="1012.52"
+            motion:springDamping="0.0"
+            motion:dragDirection="dragLeft"
+            motion:touchAnchorSide="left"/>
+
+    </Transition>
+
+    <ConstraintSet android:id="@+id/planned_list_start_constraint">
+        <Constraint
+            motion:layout_constraintTop_toTopOf="parent"
+
+            motion:layout_constraintStart_toEndOf="parent"/>
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/planned_list_end_constraint">
+        <Constraint
+            motion:layout_constraintTop_toTopOf="parent"
+
+            motion:layout_constraintStart_toStartOf="parent" />
+    </ConstraintSet>
+    <Transition
+        android:id="@+id/transition"
+        motion:constraintSetStart="@+id/planned_list_end_constraint"
+        motion:constraintSetEnd="@+id/planned_list_start_constraint"
+        motion:autoTransition="none" >
+        <OnSwipe
+            motion:dragDirection="dragRight"
+            motion:touchAnchorSide="right" />
+
+    </Transition>
+</MotionScene>

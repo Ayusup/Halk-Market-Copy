@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/categories_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragments.CategroiesFragment"
+    android:focusable="true"
+    >
+
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/categories_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_Accent"
+        android:foregroundGravity="center">
+
+
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="top"
+            android:background="@color/white"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+<!--            <ImageView-->
+<!--                android:id="@+id/profile_btn_categories"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:src="@drawable/ic_profile"-->
+<!--                android:paddingVertical="18dp"-->
+<!--                android:layout_marginStart="20dp"/>-->
+
+            <LinearLayout
+                android:id="@+id/categories_profile_btn"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingVertical="18dp"
+                android:weightSum=".1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_profile" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/top_bar_layout_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/nav_bar_categories"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/color_Accent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="20dp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/categories_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:background="@color/lighter_white_solid"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <include
+                android:id="@+id/categories_fragment_recyclerview"
+                layout="@layout/categories_recyclerview"
+                android:visibility="visible"/>
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/categories_scrollview"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--            <TableLayout-->
+<!--                android:id="@+id/select_category"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:paddingVertical="10dp">-->
+
+<!--                <TableRow-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="10dp">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Confectionery_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Confectionery"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+<!--                        <RelativeLayout-->
+<!--                            android:id="@+id/Confectionery"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent" />-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Bread_and_pastries"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Bread_and_pastries_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Bread_and_pastries"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                </TableRow>-->
+
+<!--                <TableRow-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="10dp">-->
+
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Dairy_products"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Dairy_products_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Dairy_products"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Grocery"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Grocery_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Grocery"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                </TableRow>-->
+
+<!--                <TableRow-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="10dp">-->
+
+
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Food_products"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Food_products_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Food_products"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Meat_and_sausages"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Meat_and_sausages_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Meat_and_sausages"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                </TableRow>-->
+
+<!--                <TableRow-->
+<!--                    android:id="@+id/Soft_drinks"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="10dp">-->
+
+
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Soft_drinks_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Soft_drinks"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Tea_and_coffee"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Tea_and_coffee_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Tea_and_coffee"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                </TableRow>-->
+
+<!--                <TableRow-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="10dp">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/For_diabetics"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/For_diabetics_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/For_diabetics"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Frozen_products"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Frozen_products_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Frozen_products"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                </TableRow>-->
+
+<!--                <TableRow-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="10dp">-->
+
+
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Fish_and_seafood"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Fish_and_seafood_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Fish_and_seafood"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Appliances"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Appliances_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Appliances"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                </TableRow>-->
+
+<!--                <TableRow-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="10dp">-->
+
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Pan_asian_cuisine"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Pan_asian_cuisine_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Pan_asian_cuisine"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Household_products"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Household_products_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Household_products"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                </TableRow>-->
+
+<!--                <TableRow-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="10dp">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Sweets_and_snacks"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Sweets_and_snacks_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Sweets_and_snacks"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Kids_toys"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Kids_toys_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Kids_toys"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                </TableRow>-->
+
+<!--                <TableRow-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:padding="10dp">-->
+
+
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Baby_food"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Baby_food_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/Baby_food"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/Promotions_and_sales"-->
+<!--                        android:layout_width="170dp"-->
+<!--                        android:layout_height="130dp"-->
+<!--                        android:background="@drawable/categories_cardview_bg"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:layout_gravity="start">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="170dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:background="@drawable/categories_model_bg"-->
+<!--                            android:scaleType="fitXY" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:gravity="center_horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/Promotions_and_sales_txt"-->
+<!--                                android:layout_width="130dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="12dp"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:text="@string/promotions_and_sales"-->
+<!--                                android:textSize="14sp" />-->
+
+<!--                        </LinearLayout>-->
+
+
+<!--                    </RelativeLayout>-->
+
+<!--                </TableRow>-->
+
+
+<!--            </TableLayout>-->
+
+
+
+<!--        </RelativeLayout>-->
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+</FrameLayout>

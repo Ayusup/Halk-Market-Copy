@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.activities.SplashActivity"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lighter_white_solid"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp">
+
+
+
+        <TextView
+            android:id="@+id/walmart_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Walmart"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/color_Accent"
+            android:textSize="70sp"
+            android:alpha=".85"/>
+
+        <include
+            android:id="@+id/load_splash"
+            layout="@layout/item_loading_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/no_internet_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="100dp"
+            android:visibility="gone">
+
+
+            <Button
+                android:id="@+id/refresh"
+                android:layout_width="70dp"
+                android:layout_height="32dp"
+                android:text="refresh"
+                android:textColor="@color/white"
+                style="@style/Widget.Design.AppBarLayout"
+                android:background="@drawable/refresh_button_bg"
+                android:elevation="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Network is unavalible"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

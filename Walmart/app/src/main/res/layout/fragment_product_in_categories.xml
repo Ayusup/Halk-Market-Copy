@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/categories_recyclerview_holder_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white_solid"
+    style="@style/categories_products_theme"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/products_in_categories_parent_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/category_content_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="top"
+                android:background="@color/white"
+                android:elevation="20dp"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <ImageView
+                    android:id="@+id/categories_content_layout_back_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/back_btn_ic"
+                    android:paddingHorizontal="4dp"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:id="@+id/products_in_categories_top_bar_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="See All"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:textColor="@color/color_Accent"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_marginStart="20dp" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/products_in_categories_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:paddingTop="20dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cardview_bg"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginVertical="6dp"
+                    android:paddingHorizontal="4dp"
+                    android:paddingVertical="6dp"
+                    android:layout_marginTop="60dp"
+                    android:gravity="center_vertical"
+                    android:elevation="10dp">
+
+                    <ImageView
+                        android:layout_width="23dp"
+                        android:layout_height="23dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_search" />
+
+
+                    <EditText
+                        android:id="@+id/search_text_categories_lay"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginEnd="40dp"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/search_hint_text"
+                        android:inputType="text"
+                        android:textColor="#363A43"
+                        android:textColorHint="#7A8089"
+                        android:textSize="16dp" />
+
+                    <ImageView
+                        android:id="@+id/search_clear_btn"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/ic_close"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/categories_suggestions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="14dp"
+                    android:paddingHorizontal="10dp"
+                    android:elevation="20dp">
+
+                    <include
+                        android:id="@+id/suggestions_recyclerView"
+                        layout="@layout/suggestions_recyclerview"
+                        />
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="10dp"
+                    android:elevation="20dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/search_layout_background">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/active_categories"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingHorizontal="20dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="4dp"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="26dp"
+                                android:layout_height="26dp"
+                                android:layout_gravity="center_vertical"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_main_selected" />
+
+                            <ImageView
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginHorizontal="10dp"
+                                android:padding="2dp"
+                                android:src="@drawable/right_arrow"
+                                android:visibility="gone" />
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+
+                    <RelativeLayout
+                        android:id="@+id/selected_categories_products_scrollview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:elevation="2dp"
+                        android:background="@color/lighter_white_solid"
+                        android:foregroundGravity="center">
+
+
+                        <RelativeLayout
+                            android:id="@+id/progress_bar_holder_products_in_categories"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:elevation="-4dp"
+                            android:layout_centerInParent="true" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </androidx.core.widget.NestedScrollView>
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

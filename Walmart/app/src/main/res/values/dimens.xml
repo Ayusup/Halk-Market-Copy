@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="profile_icon_size">32dp</dimen>
+    <dimen name="cardview_height">260dp</dimen>
+    <dimen name="cardview_width">182dp</dimen>
+    <dimen name="cardview_layout_marginStart">4dp</dimen>
+    <dimen name="cardview_layout_marginEnd">8dp</dimen>
+
+    <dimen name="product_layout_margin">8dp</dimen>
+
+
+    <dimen name="like_btn_height">30dp</dimen>
+    <dimen name="like_btn_width">30dp</dimen>
+    <dimen name="like_btn_margin_end">4dp</dimen>
+    <dimen name="like_btn_margin_top">4dp</dimen>
+
+    <dimen name="product_image_height">100dp</dimen>
+    <dimen name="product_image_width">80dp</dimen>
+
+    <dimen name="product_name_textsize">20sp</dimen>
+    <dimen name="product_name_margin">4dp</dimen>
+
+    <dimen name="product_add_to_calendar_size">20dp</dimen>
+    <dimen name="product_add_to_calendar_marginLeft">24dp</dimen>
+    <dimen name="product_add_to_calendar_marginRight">4dp</dimen>
+
+    <dimen name="product_price_layout_marginBottom">10dp</dimen>
+    <dimen name="product_price_layout_marginStart">8dp</dimen>
+
+    <dimen name="price_for_piece_height">14dp</dimen>
+    <dimen name="price_for_piece_margin">-4dp</dimen>
+
+    <dimen name="price_for_piece_textsize">10sp</dimen>
+
+    <dimen name="price_textsize">15sp</dimen>
+
+    <dimen name="add_to_cart_width">44dp</dimen>
+    <dimen name="add_to_cart_height">42dp</dimen>
+    <dimen name="add_to_cart_marginStart">24dp</dimen>
+
+    <dimen name="llayout_add_take_marginStart">6dp</dimen>
+    <dimen name="llayout_add_take_marginBottom">4dp</dimen>
+
+    <dimen name="pieces_padding">4dp</dimen>
+    <dimen name="pieces_textsize">14sp</dimen>
+
+    <dimen name="pieces_price_marginTop">8dp</dimen>
+    <dimen name="pieces_price_textSize">16sp</dimen>
+
+    <dimen name="importance_level_unselected_size">80dp</dimen>
+    <dimen name="importance_level_selected_size">94dp</dimen>
+
+
+    <!-- Planned List layout -->
+    <dimen name="planned_list_padding">20dp</dimen>
+    <dimen name="planned_list_date_width">54dp</dimen>
+    <dimen name="planned_list_date_textSize">36sp</dimen>
+    <dimen name="planned_list_month_textSize">26sp</dimen>
+    <dimen name="planned_list_view_width">300dp</dimen>
+    <dimen name="planned_list_view_height">180dp</dimen>
+    <dimen name="planned_list_fg_margins">3dp</dimen>
+
+    <!-- ProgressBar Dimens -->
+    <dimen name="progress_dialog_content_padding">10dp</dimen>
+    <dimen name="progress_bar_size">50dp</dimen>
+    <dimen name="progress_text_marginStart">16dp</dimen>
+    <dimen name="progress_text_size">16sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--  Tab Layout text size  -->
+    <dimen name="tab_layout_text_size">9sp</dimen>
+
+
+    <dimen name="category_Views_corner_radius">12dp</dimen>
+
+</resources>
+

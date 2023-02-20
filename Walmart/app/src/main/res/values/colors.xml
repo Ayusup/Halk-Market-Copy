@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="snackbar_error_color">#F72400</color>
+    <color name="lighter_blue">#0E26B1</color>
+    <color name="color_Accent">#01297C</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="aquamarine_teal">#3DE5A7</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="neon_blue">#3CB9FC</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="daisy_white">#F7F7F6</color>
+    <color name="slight_blue_gray_color">#B7C9E2</color>
+    <color name="pale_gray">#D3D3D3</color>
+    <color name="scroll_view_bg">#BEBEBE</color>
+    <color name="price_for_pc_text_color">#949494</color>
+    <color name="light_gray">#949494</color>
+    <color name="white_smoke">#F5F5F5</color>
+<!--    <color name="lighter_white_solid">#FAFAFF</color>-->
+    <color name="lighter_white_solid">#FDFEFF</color>
+
+    <color name="white_solid">#F4F5FA</color>
+<!--    #2FAA5F-->
+    <color name="green_cart_color">#2FAA5F</color>
+    <color name="pantone_green">#009933</color>
+    <color name="red">#FF0000</color>
+    <color name="dark_gray">#6B6B6B</color>
+    <color name="gray">#808080</color>
+    <color name="yellow">#FFE203</color>
+    <color name="sepia_yellow">#E3B778</color>
+    <color name="light_yellow">#FFF157</color>
+    <color name="darker_pinkish_yellow">#F69552</color>
+
+</resources>

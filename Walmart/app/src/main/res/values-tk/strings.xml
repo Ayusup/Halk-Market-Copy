@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Walmart</string>
+    <string name="Categories_inside_scrollview">Kategoriýalar</string>
+    <string name="Brands_inside_scrollview">Brendlar</string>
+
+    <!-- Profile layout -->
+    <string name="your_adress">Siziň salgyňyz</string>
+    <string name="Personal_information">Şahsy maglumat</string>
+    <string name="My_adresses">Salgylarym</string>
+    <string name="Orders">Sargytlarym</string>
+    <string name="Feedback">Seslenme</string>
+    <string name="FAQ">Sorag-jogap</string>
+    <string name="Delivery_and_payment_terms">Eltip bermek we töleg şertleri</string>
+    <string name="display_language">Görkeziş dili</string>
+    <string name="About_us">Biz barada</string>
+    <string name="Registration">Agza bolmak</string>
+    <string name="login">Giriş</string>
+    <string name="Logout">Çykyş</string>
+
+    <string name="new_products">Täze produktlar</string>
+    <string name="see_all">Hemmesini görmek</string>
+
+    <string name="promotions_and_sales">Mahabat we satuw</string>
+
+    <string name="popular_products">Meşhur önümler</string>
+
+    <string name="sales">Satuwlar</string>
+
+    <string name="search">Gözleg</string>
+    <string name="search_hint_text">Näme satyn almak isleýäňiz?</string>
+
+    <string name="price_for_piece">bahasy sany</string>
+    <string name="pieces"> sany</string>
+
+    <string name="nav_bar_main_menu">Baş sahypa</string>
+    <string name="nav_bar_categories">Kategoriýalar</string>
+    <string name="nav_bar_Cart">Söwda sebedi</string>
+    <string name="nav_bar_Wishlist">Halanýanlar</string>
+    <string name="nav_bar_planned">Satyn alynmaly</string>
+
+    <!-- Empty Cart layout -->
+    <string name="Cart_is_empty">Sebediňiz boş</string>
+    <string name="go_and_add_a_product_to_cart">Bagtymyza, dükana geçip önüm goşup bilersiňiz</string>
+
+    <!-- Empty Wishlist layout -->
+    <string name="Wishlist_is_empty">Halaýanlaryňyzyň sanawy häzirki wagtda boş</string>
+    <string name="go_and_add_a_product_to_wishlist">Emma dükana baryp, birnäçe warianty saýlap bilersiňiz</string>
+
+    <!-- Empty Planned list layout -->
+    <string name="Planned_list_is_empty">Sanawyňyz boş</string>
+    <string name="go_and_add_a_product_to_planned_list">Söwda etmegi aňsatlaşdyrmak üçin sanaw dörediň we sebediňize goşuň</string>
+
+
+    <!-- Categories layout -->
+    <string name="Confectionery">Konditer önümleri</string>
+    <string name="Bread_and_pastries">Çörek we hamyrly önümler</string>
+    <string name="Dairy_products">Süýt önümlri</string>
+    <string name="Grocery">Gök önümler we miweler</string>
+    <string name="Food_products">Azyk önümleri</string>
+    <string name="Meat_and_sausages">Et önümleri</string>
+    <string name="Soft_drinks">Içgiler</string>
+    <string name="Tea_and_coffee">Çaý we kofe</string>
+    <string name="For_diabetics">Berhiz önümleri</string>
+    <string name="Frozen_products">Doňdurylan önümler</string>
+    <string name="Fish_and_seafood">Balyk we deňiz önümleri</string>
+    <string name="Appliances">Enjamlar</string>
+    <string name="Pan_asian_cuisine">Pan-aziýa aşhanasy</string>
+    <string name="Household_products">Öý önümleri</string>
+    <string name="Sweets_and_snacks">Süýjiler we sneklar</string>
+    <string name="Kids_toys">Çaga oýunjaklary</string>
+    <string name="Baby_food">Çaga üçin önümler</string>
+
+    <!-- Cart layout -->
+    <string name="in_stock_text">Hasapda</string>
+    <string name="total_price_text">Jemi</string>
+    <string name="delete_btn_text">Pozmak</string>
+    <string name="clear_all_btn_text">Arassala</string>
+    <string name="number_of_products_in_cart_text">Önümleriň sany</string>
+    <string name="check_out_btn_text">Sargydy hasaba almak</string>
+    <string name="checkout_price_text">Siziň sargydyňyz </string>
+
+    <!-- Wishlist layout -->
+    <string name="add_to_cart">Sebede goş</string>
+
+    <!-- Add to planned dialog layout -->
+    <string name="add_to_list">Sanawa goşmak</string>
+    <string name="create_a_list">Sanawyň döredilmegi</string>
+    <string name="Add">Goşuň</string>
+    <string name="Cancel">Ýatyrmak</string>
+
+    <!-- Create planned layout -->
+    <string name="planned_lists">Satyn alynmaly</string>
+    <string name="add_list_name">Sanawyň adyny goşuň</string>
+    <string name="date">Senesi</string>
+    <string name="choose_priority">Wajyplygy saýlaň</string>
+    <string name="high">Ýokary</string>
+    <string name="medium">Orta</string>
+    <string name="low">Pes</string>
+    <string name="btn_save_txt">Ýatda saklaň</string>
+
+
+
+
+
+</resources>

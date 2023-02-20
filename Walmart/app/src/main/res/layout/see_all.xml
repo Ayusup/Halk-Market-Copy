@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white_solid"
+    style="@style/see_all_theme">
+
+<!--    <androidx.coordinatorlayout.widget.CoordinatorLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <com.google.android.material.appbar.AppBarLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <androidx.appcompat.widget.Toolbar-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="?attr/actionBarSize"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_gravity="top"-->
+<!--                android:background="@color/white"-->
+<!--                android:elevation="0dp"-->
+<!--                app:layout_scrollFlags="scroll|enterAlways">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/back_btn"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:src="@drawable/back_btn_ic"-->
+<!--                    android:paddingHorizontal="4dp"-->
+<!--                    android:layout_marginStart="20dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/see_all_deal_name"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="See All"-->
+<!--                    android:textColor="@color/color_Accent"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_marginStart="20dp" />-->
+
+<!--            </androidx.appcompat.widget.Toolbar>-->
+
+<!--        </com.google.android.material.appbar.AppBarLayout>-->
+
+
+<!--        <androidx.core.widget.NestedScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:fillViewport="true"-->
+<!--            app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_marginTop="20dp">-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@drawable/cardview_bg"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginHorizontal="16dp"-->
+<!--                    android:layout_marginVertical="6dp"-->
+<!--                    android:paddingHorizontal="4dp"-->
+<!--                    android:paddingVertical="6dp"-->
+<!--                    android:layout_marginTop="60dp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:elevation="10dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="23dp"-->
+<!--                        android:layout_height="23dp"-->
+<!--                        android:layout_alignParentStart="true"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:src="@drawable/ic_search" />-->
+
+
+<!--                    <EditText-->
+<!--                        android:id="@+id/search_text_see_all_lay"-->
+<!--                        android:layout_width="320dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="40dp"-->
+<!--                        android:layout_marginEnd="40dp"-->
+<!--                        android:background="@null"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:hint="@string/search_hint_text"-->
+<!--                        android:inputType="text"-->
+<!--                        android:textColor="#363A43"-->
+<!--                        android:textColorHint="#7A8089"-->
+<!--                        android:textSize="16dp" />-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/search_clear_btn"-->
+<!--                        android:layout_width="26dp"-->
+<!--                        android:layout_height="26dp"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:layout_alignParentEnd="true"-->
+<!--                        android:src="@drawable/ic_close"/>-->
+
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/see_all_layout_products_holder"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:paddingTop="10dp"-->
+<!--                    android:elevation="20dp"-->
+<!--                    android:background="@drawable/search_layout_background">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/progress_bar_holder_see_all_layout"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerInParent="true"/>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/see_all_scrollview"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"/>-->
+
+<!--                </RelativeLayout>-->
+
+<!--            </LinearLayout>-->
+
+
+
+<!--        </androidx.core.widget.NestedScrollView>-->
+
+
+
+<!--&lt;!&ndash;        <androidx.core.widget.NestedScrollView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/see_all_scrollview"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:fillViewport="true"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:paddingHorizontal="4dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_behavior="@string/appbar_scrolling_view_behavior">&ndash;&gt;-->
+
+
+
+
+
+<!--&lt;!&ndash;        </androidx.core.widget.NestedScrollView>&ndash;&gt;-->
+
+
+
+
+<!--    </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
+
+</RelativeLayout>

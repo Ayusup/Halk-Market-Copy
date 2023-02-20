@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="192dp"
+    android:layout_height="278dp"
+    android:layout_gravity="center_horizontal"
+
+    android:gravity="center"
+    android:background="@drawable/products_by_deals_bg_horizontal"
+    app:layout_constraintDimensionRatio="1:1">
+
+
+    <RelativeLayout
+        android:layout_width="182dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/products_by_deals_bg_vertical">
+
+        <RelativeLayout
+            android:id="@+id/product"
+            android:layout_width="@dimen/cardview_width"
+            android:layout_height="@dimen/cardview_height"
+            android:layout_centerInParent="true"
+            android:background="@drawable/cardview_bg">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/product_img"
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="centerInside"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight=".3"
+                    android:src="@drawable/gatorade" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="@dimen/product_layout_margin"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="@dimen/product_name_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/product_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/product_name_margin"
+                        android:layout_weight=".8"
+                        android:ellipsize="end"
+                        android:paddingBottom="6dp"
+                        android:gravity="bottom"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:maxLines="2"
+                        android:text="Gatorade"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:id="@+id/add_to_planned"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="@dimen/product_add_to_calendar_marginLeft"
+                        android:layout_marginEnd="@dimen/product_name_margin"
+                        android:layout_marginBottom="@dimen/product_name_margin"
+                        android:background="@drawable/ic_calendar" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/add_to_cart_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/product_layout_margin"
+                    android:layout_marginTop="@dimen/product_layout_margin"
+                    android:layout_marginBottom="@dimen/product_price_layout_marginBottom"
+                    android:layout_weight=".2"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/price_for_piece_height"
+                            android:layout_marginBottom="@dimen/price_for_piece_margin"
+                            android:text="@string/price_for_piece"
+                            android:textColor="@color/price_for_pc_text_color"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:id="@+id/product_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="60.00 TMT"
+                            android:textColor="@color/color_Accent"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/add_to_cart"
+                        android:layout_width="@dimen/add_to_cart_width"
+                        android:layout_height="@dimen/add_to_cart_height"
+                        android:layout_gravity="end|bottom"
+                        android:layout_marginStart="@dimen/add_to_cart_marginStart"
+                        android:src="@drawable/add_to_cart" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/add_and_take_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/product_layout_margin"
+                    android:layout_weight=".17"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    tools:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".7"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/pieces"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/item_num_bg"
+                            android:padding="@dimen/pieces_padding"
+                            android:text="1 pc"
+                            android:textColor="@color/color_Accent"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/pieces_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/pieces_price_marginTop"
+                            android:text="60.00 TMT"
+                            android:textColor="@color/color_Accent"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/add" />
+
+                        <ImageView
+                            android:id="@+id/take"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/take" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/like_btn_margin_top">
+
+                <ImageView
+                    android:id="@+id/product_like"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/favourite_btn"
+                    android:elevation="10dp"
+                    android:stateListAnimator="@anim/like_btn_animation" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
